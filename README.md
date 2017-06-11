@@ -3,6 +3,7 @@
 ## Database 생성
 
 > python3 manage.py makemigrations stock
+
 > python3 manage.py migrate
 
 
