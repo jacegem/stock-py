@@ -1,0 +1,7 @@
+django
+BeautifulSoup4
+lxml
+pytz
+requests
+pandas
+pandas-datareader

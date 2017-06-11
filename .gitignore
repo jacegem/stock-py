@@ -172,4 +172,3 @@ db.sqlite3
 
 # ignore settings
 __pychche__
-migrations
