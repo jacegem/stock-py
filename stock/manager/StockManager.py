@@ -62,10 +62,10 @@ def save_recent_data(code, stock_type="kospi"):
     # 저장된 가장 최근 날짜를 구한다.
     try:
         stock_data = StockData.objects.filter(code=code).order_by('-date').first()
-        last_date = stock_data.date
+       # last_date = stock_data.date
         if last_date == today_str:
             return True
-        last_date = get_date(last_date) - timedelta(days=150)
+        #last_date = get_date(last_date) - timedelta(days=150)
     except StockData.DoesNotExist:
         last_date = today - timedelta(days=1000)
 

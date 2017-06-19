@@ -51,6 +51,7 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'stock_py.urls'
+SITE_ROOT = 'C:\github\stock-py\stock'
 
 TEMPLATES = [
     {

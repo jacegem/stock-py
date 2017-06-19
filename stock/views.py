@@ -32,7 +32,8 @@ def index(request):
 def add_stock(request):
     # name, yahoo_code,
     # 파일읽기
-    file = os.path.join(settings.SITE_ROOT, '../manager/data/kospi_yahoo.csv')
+    #    file = os.path.join(settings.SITE_ROOT, '../manager/data/kospi_yahoo.csv')
+    file = os.path.join(settings.SITE_ROOT, './data/kospi_yahoo.csv')
     f = open(file, 'rt')
     lines = f.readlines()
     for line in lines:
