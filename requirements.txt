@@ -3,5 +3,5 @@ BeautifulSoup4
 lxml
 pytz
 requests
-pandas
+pandas==0.19.2
 pandas-datareader
